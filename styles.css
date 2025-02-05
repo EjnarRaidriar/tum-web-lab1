@@ -37,7 +37,13 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 30vw;
+}
+
+.user-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  font-size: 0.8rem;
 }
 
 .name-data {
@@ -45,6 +51,17 @@ h1 {
     grid-template-columns: auto auto;
     column-gap: 10px;
     font-size: 0.8rem;
+}
+
+.name-data .label {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hobbies-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
 }
 
 .timeline {
